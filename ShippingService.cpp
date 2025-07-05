@@ -31,7 +31,7 @@ public :
         return costShiping;
    }
 
-    void display()  {       // return ship cost
+    void display()  {     
         double totalWeight = 0 ; ;
 
         for (int  i  =  0 ;  i  < items.size() ;  ++i)  {
