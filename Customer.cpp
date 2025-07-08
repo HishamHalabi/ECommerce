@@ -71,7 +71,7 @@ public  :
             cout<<cnt <<"X " <<products[i].first.getName() <<" "<<cnt  * products[i].first.getPrice() <<"\n " ;
             subtotal+=cnt * products[i].first.getPrice() ;
         }
-        cout<<"____________________/nSubtotal  "<<subtotal <<"\n";
+        cout<<"____________________\nSubtotal  "<<subtotal <<"\n";
         cout<<"Shippment  " << ship.getCost() <<"\n";
         cout<<"Amount  "<<subtotal  + ship.getCost() <<"\n";
     }
