@@ -22,7 +22,7 @@ int32_t main() {
       Customer customer("Hisham" , 1000) ;
 
       while(true)  {
-             cout<<"Hi  " << customer.getName() <<" Your balance is "<<customer.getBalance()<<" \n";
+             cout<<"\nHi  " << customer.getName() <<" Your balance is "<<customer.getBalance()<<" \n";
              cout<<"------------------------------how can i help you ^_^-- -------------------------\n" ;
              cout<<"Enter 1 for check out  || 2 for clear screen ||  3 for adding product   || 4 for return Product\n"  ;
 
