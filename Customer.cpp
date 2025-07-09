@@ -54,8 +54,9 @@ public  :
         }
 
         for (int i = 0 ;  i <products.size() ;  ++i)  {
-                 if (products[i].first.getExpirationYear()  >=CurrenYear)  {
+                 if (products[i].first.getExpirationYear()   <  CurrentYear)  {
                               cout<<"Product "<<products[i].first.getName() <<" is  expired u can return it again\n" ;
+                               return ; 
                  }
         }
 
